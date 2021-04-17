@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="primary"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Sobre</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+
+<ion-content>
+   <!--Conjunto de slides, com imagem e um pequena texto. Para passar para o próximo slide tem de se fazer um swipe left. -->
+  <ion-slides id="slides">
+    <ion-slide>
+      <div class="slide1">
+        <img src="assets/mainpic.jpeg"/>
+        <h2>Jake Gyllenhaal</h2>
+        <p>Jake Gyllenhaal é um actor e produtor norte-americano. </p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/youngjake.jpeg"/>
+
+      <p>Nasceu a 19 de Dezembro de 1980, em Los Angeles, Califórnia e é filho do director de cinema Stephen Gyllenhaal e da argumentista Naomi Foner.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/jakeandmaggie.jpeg"/>
+      <p>É irmão da Maggie Gyllenhaal, também conhecida atriz de cinema.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/cityslickers.png"/>
+      <p>Ao longo da sua infância esteve constantemente exposto à indústria do cinema, devido à carreira dos seus pais, participando no seu primeiro filme "City Slickers", quando tinha apenas 11 anos.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/donniedarko.jpeg"/>
+      <p>O seu primeiro filme como personagem principal foi o "October Sky", lançado em 1999, no entanto o seu primeiro sucesso foi o filme 
+        "Donnie Darko", lançado em 2001. 
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/jake5.jpeg" style="width:80%;height:70%;" />
+      <p>Já trabalhou ao lado de vários consagrados atores tais como: Jennifer Aniston, Mark Ruffalo, Robert Downey Jr, Hugh Jackman, entre outros. 
+        E também consagrados directores de cinema tais como David Fincher, Denis Villeneuve e  Jean-Marc Vallée.
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/jake4.jpg" />
+      <p>Atualmente, é considerado um dos melhores atores da sua geração.+
+        <!--Botão ao o clicar, redireciona o utilizador para o primeiro slide -->
+        <ion-button fill="clear" onclick="slides.slideTo(0)">Voltar ao ínicio 
+          <ion-icon slot="end" name="refresh-outline"></ion-icon>
+        </ion-button>
+    </ion-slide>
+
+    
+
+  </ion-slides>
+
+</ion-content>

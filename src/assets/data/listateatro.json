@@ -1,0 +1,35 @@
+{
+
+    "1": {
+        "titulo":"If There Is I Haven't Found It Yet",
+        "ano":2012,
+        "palco":"Off-Broadway",
+        "imageUrl": "https://msteketee.files.wordpress.com/2012/09/jake-gyllenhaal-michelle-gomez-annie-funke-brian-f-obyrne-joan-marcus.jpg"
+    },
+    "2": {
+        "titulo":"Constellations",
+        "ano":2014,
+        "palco":"Broadway",
+        "imageUrl": "https://media.broadway.com/photos/original/7.206733.jpg"
+    },
+    "3": {
+        "titulo":"Little Shop of Horrors",
+        "ano":2015,
+        "palco":"Off-Broadway",
+        "imageUrl": "https://www.theatermania.com/s/tm-photos-production/104687.jpg"
+    },
+    "4": {
+        "titulo":"Sunday in the Park with George",
+        "ano":[2016, 2017, 2020],
+        "palco":["Broadway", "West End"],
+        "imageUrl": "https://variety.com/wp-content/uploads/2017/02/sunday-in-the-park-with-george-broadway-jake-gyllenhaal.jpg"
+    },
+    "5": {
+        "titulo":"A Life",
+        "ano":2019,
+        "palco":"Broadway",
+        "imageUrl": "https://static01.nyt.com/images/2019/09/06/arts/06seawall1/merlin_158500743_caa5b771-a300-4494-9bf1-7cfc155a971a-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+    }
+   
+
+}

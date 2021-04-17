@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="primary"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Teatro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+    <ion-card class="cards" *ngFor="let peca of pecas | keyvalue">
+      <img src="{{peca.value.imageUrl}}" />
+      <ion-card-header>
+        <ion-card-subtitle>{{peca.value.palco}}</ion-card-subtitle>
+        <ion-card-title>{{peca.value.titulo}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+      <b>Ano: </b>{{peca.value.ano}}
+      </ion-card-content>
+    </ion-card>
+
+
+</ion-content>
+
+
+<ion-toolbar>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" >
+      <ion-tab-button tab="films">
+        <ion-icon name="film"></ion-icon>
+        <ion-label>Filmes</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="theater">
+        <ion-icon name="accessibility-outline"></ion-icon>
+        <ion-label>Teatro</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map">
+        <ion-icon name="calendar-clear-outline"></ion-icon>
+        <ion-label>Próximos</ion-label>
+      </ion-tab-button>
+
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-toolbar>
+
+

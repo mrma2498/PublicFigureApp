@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="primary"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Filmografia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+<div class="filmes">
+  <ion-card *ngFor="let filme of filmes | keyvalue" button="true" >
+    <ion-card-header>
+      <ion-row justify-content-between>
+        <ion-col col-auto>
+          <img src="https://image.tmdb.org/t/p/w154{{filme.value.poster_path}}" style="width:120px; height:120px;" item-left/>
+        </ion-col>
+
+        <ion-col>
+          <ion-row text-wrap>
+            <h4>{{filme.value.original_title}}</h4>
+          </ion-row>
+
+          <ion-row text-wrap>
+            <p><b>Data de lançamento</b> {{filme.value.release_date}}
+          </ion-row>
+        
+        </ion-col>
+      </ion-row>
+    </ion-card-header>
+  </ion-card>
+</div>
+</ion-content>
+
+<ion-toolbar>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" >
+      <ion-tab-button tab="films">
+        <ion-icon name="film"></ion-icon>
+        <ion-label>Filmes</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="theater">
+        <ion-icon name="accessibility-outline"></ion-icon>
+        <ion-label>Teatro</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map">
+        <ion-icon name="calendar-clear-outline"></ion-icon>
+        <ion-label>Próximos</ion-label>
+      </ion-tab-button>
+
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-toolbar>
+
