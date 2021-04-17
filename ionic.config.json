@@ -1,0 +1,7 @@
+{
+  "name": "mypublicfigure",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
