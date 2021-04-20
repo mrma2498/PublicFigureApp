@@ -9,11 +9,11 @@ export class AppComponent {
     { title: 'Página Inicial', url: '/folder/home', icon: 'home' },
     { title: 'Sobre', url: '/about', icon: 'person' },
     { title: 'Trabalhos', url: '/films', icon: 'film' },
-    { title: 'Estudos', url: '/folder/Favorites', icon: 'school' },
+    { title: 'Estudos', url: '/studies', icon: 'school' },
     { title: 'Prémios', url: '/folder/Archived', icon: 'trophy' },
-    { title: 'Curiosidades', url: '/folder/Trash', icon: 'glasses' },
+    { title: 'Curiosidades', url: '/curiosities', icon: 'glasses' },
     { title: 'Teatro', url: '/theater', icon: 'accessibility' },
-    { title: 'Próximos', url: '/theater', icon: 'calendar-clear' },
+    { title: 'Televisão', url: '/tv', icon: 'tv' },
     
   ];
   

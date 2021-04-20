@@ -23,6 +23,18 @@ const routes: Routes = [
     path: 'theater',
     loadChildren: () => import('./theater/theater.module').then( m => m.TheaterPageModule)
   },
+  {
+    path: 'studies',
+    loadChildren: () => import('./studies/studies.module').then( m => m.StudiesPageModule)
+  },
+  {
+    path: 'tv',
+    loadChildren: () => import('./tv/tv.module').then( m => m.TvPageModule)
+  },
+  {
+    path: 'curiosities',
+    loadChildren: () => import('./curiosities/curiosities.module').then( m => m.CuriositiesPageModule)
+  },
   
 ];
 

@@ -7,9 +7,9 @@
   </ion-toolbar>
 </ion-header>
 
+
+<!--Cards que listam todos as peças onde o actor já participou, obtendo essa informação a partir de um ficheiro JSON local.--->
 <ion-content>
-
-
     <ion-card class="cards" *ngFor="let peca of pecas | keyvalue">
       <img src="{{peca.value.imageUrl}}" />
       <ion-card-header>
@@ -20,8 +20,6 @@
       <b>Ano: </b>{{peca.value.ano}}
       </ion-card-content>
     </ion-card>
-
-
 </ion-content>
 
 
