@@ -11,7 +11,7 @@
 
 <!--Cards que listam todos os filmes onde o actor já participou, obtendo essa informação a partir de uma API externa.--->
 <div class="filmes">
-  <ion-card *ngFor="let filme of filmes | keyvalue" button="true" >
+  <ion-card *ngFor="let filme of filmes | keyvalue" button="true" (click)="verDetalhesFilme(filme.key)" >
     <ion-card-header>
       <ion-row justify-content-between>
         <ion-col col-auto>
@@ -34,25 +34,5 @@
 </div>
 </ion-content>
 
-<ion-toolbar>
-  <ion-tabs>
-    <ion-tab-bar slot="bottom" >
-      <ion-tab-button tab="films">
-        <ion-icon name="film"></ion-icon>
-        <ion-label>Filmes</ion-label>
-      </ion-tab-button>
-  
-      <ion-tab-button tab="theater">
-        <ion-icon name="accessibility-outline"></ion-icon>
-        <ion-label>Teatro</ion-label>
-      </ion-tab-button>
-  
-      <ion-tab-button tab="map">
-        <ion-icon name="tv"></ion-icon>
-        <ion-label>Televisão</ion-label>
-      </ion-tab-button>
 
-    </ion-tab-bar>
-  </ion-tabs>
-</ion-toolbar>
 

@@ -8,5 +8,53 @@
 </ion-header>
 
 <ion-content>
+   <!--Conjunto de slides, com imagem e um pequena texto. Para passar para o próximo slide tem de se fazer um swipe left. -->
+   <ion-slides id="slides">
+    <ion-slide>
+      <div class="slide1">
+        <img src="assets/cannes-jury.jpeg"/>
+        
+        <p>Em 2015, fez parte do júri do Festival de Cannes.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/jakeandnaomi.jpeg"/>
+
+      <p>É afilhado da conhecida atriz Jamie Lee Curtis.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/jake7.jpeg"/>
+      <p>É conhecido pelas suas drásticas transformações físicas para certos papéis. Em 2009, ganhou 13 Kg em músculo para interpretar a sua personagem 
+        no filme "Príncipe da Pérsia". Por sua vez, em 2013, para o filme "Nightcrawler" perdeu mais de 10kg do seu peso normal. 
+        Posteriormente, teve de ganhar 15Kg para interpretar um boxer profissional no filme "Southpaw".
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/jakedogs.jpeg" style="width:80%;height:70%;"/>
+      <p>Ele chamou aos seus dois cães "Atticus" e "Boo", segundo as personagens principais do seu livro favorito "To Kill a Mockingbird". </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/nightcrawler.jpeg"/>
+      <p>Durante as gravações do seu filme "Nightcrawler", enquanto gravava uma cena, entusiasmou-se e deu um murro num espelho, 
+        cortando-se, onde acabou por precisar de levar pontos. 
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/jakeandadam.jpeg" />
+      <p>Foi colega de turma durante o tempo de escola, do vocalista dos Maroon 5: Adam Levine. <br>
+        <!--Botão ao o clicar, redireciona o utilizador para o primeiro slide -->
+        <ion-button id="voltar" fill="clear" onclick="slides.slideTo(0)">Voltar ao ínicio 
+          <ion-icon slot="end" name="refresh-outline"></ion-icon>
+        </ion-button>
+    </ion-slide>
+
+   
+
+    
+
+  </ion-slides>
 
 </ion-content>

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -15,25 +16,23 @@ const routes: Routes = [
     path: 'about',
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   },
-  {
-    path: 'films',
-    loadChildren: () => import('./films/films.module').then( m => m.FilmsPageModule)
-  },
-  {
-    path: 'theater',
-    loadChildren: () => import('./theater/theater.module').then( m => m.TheaterPageModule)
-  },
+
   {
     path: 'studies',
     loadChildren: () => import('./studies/studies.module').then( m => m.StudiesPageModule)
   },
-  {
-    path: 'tv',
-    loadChildren: () => import('./tv/tv.module').then( m => m.TvPageModule)
-  },
+  
   {
     path: 'curiosities',
     loadChildren: () => import('./curiosities/curiosities.module').then( m => m.CuriositiesPageModule)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./tablinks/tablinks.module').then( m => m.TablinksPageModule)
+  },
+  {
+    path: 'filme',
+    loadChildren: () => import('./filme/filme.module').then( m => m.FilmePageModule)
   },
   
 ];

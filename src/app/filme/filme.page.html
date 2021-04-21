@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{filme.original_title}}</ion-title>
+    <ion-button slot="start" color="light">
+      <ion-back-button></ion-back-button>
+   </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <img class="poster" src="https://image.tmdb.org/t/p/w185{{filme.poster_path}}">
+  <p><b>Título: </b>{{filme.original_title}}
+  <p><b>Data de Lançamento: </b>{{filme.release_date}}
+  <p><b>Resumo: </b>{{filme.overview}}
+  <p><b>Avaliação: </b>{{filme.vote_average}} <img class="star" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Star_icon_stylized.svg/1077px-Star_icon_stylized.svg.png">  
+  
+
+</ion-content>
