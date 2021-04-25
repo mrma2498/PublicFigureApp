@@ -74,7 +74,7 @@ sendToStreaming(id: string) {
     .subscribe(data => {
       this.infoStreaming = data['offers'][0].url
       let url = this.infoStreaming
-      window.open(url);
+      window.open(url,'_system');
      }, error => {
       console.log(error);
       //Mostrar erro "Indisponível"

@@ -1,0 +1,78 @@
+{
+
+    "1": {
+        "nome":"The Academy Awards",
+        "tipo":"Nomeação",
+        "filme":"Brokeback Mountain",
+        "ano": 2005,
+        "imageUrl": "./assets/oscars.jpeg"
+    },
+    "2": {
+        "nome":"British Academy Film Awards",
+        "tipo":"Vencedor",
+        "filme":"Brokeback Mountain",
+        "ano": 2005,
+        "imageUrl": "./assets/BAFTA.jpeg"
+    },
+    "3": {
+        "nome":"Screen Actors Guild Awards",
+        "tipo":"Nomeação",
+        "filme":"Brokeback Mountain",
+        "ano": 2005,
+        "imageUrl": "./assets/sag.jpeg"
+    },
+    "4": {
+        "nome":"The Golden Globes Awards",
+        "tipo":"Nomeação",
+        "filme":"Love & Other Drugs",
+        "ano": 2010,
+        "imageUrl": "./assets/goldenglobes.jpeg"
+    },
+    "5": {
+        "nome":"The Golden Globes Awards",
+        "tipo":"Nomeação",
+        "filme":"Nightcrawler",
+        "ano": 2014,
+        "imageUrl": "./assets/goldenglobes.jpeg"
+    },
+  
+    "6": {
+        "nome":"British Academy Film Awards",
+        "tipo":"Nomeação",
+        "filme":"Nightcrawler",
+        "ano": 2014,
+        "imageUrl": "./assets/BAFTA.jpeg"
+    },
+    "7": {
+        "nome":"Screen Actors Guild Awards",
+        "tipo":"Nomeação",
+        "filme":"Nightcrawler",
+        "ano": 2014,
+        "imageUrl": "./assets/sag.jpeg"
+    },
+    "8": {
+        "nome":"British Academy Film Awards",
+        "tipo":"Nomeação",
+        "filme":"Nocturnal Animals",
+        "ano": 2017,
+        "imageUrl": "./assets/BAFTA.jpeg"
+    },
+   
+    
+    "9": {
+        "nome":"Tony Awards",
+        "tipo":"Nomeação(Aguarda resultado)",
+        "filme":"Sea Wall/Life",
+        "ano": 2020,
+        "imageUrl": "./assets/tony.jpeg"
+    },
+    "10": {
+        "nome":"Tony Awards",
+        "tipo":"Nomeação(Aguarda resultado)",
+        "filme":"Slave Play",
+        "ano": 2020,
+        "imageUrl": "./assets/tony.jpeg"
+    }
+    
+    
+}

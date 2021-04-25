@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'filme',
     loadChildren: () => import('./filme/filme.module').then( m => m.FilmePageModule)
   },
+  {
+    path: 'premios',
+    loadChildren: () => import('./premios/premios.module').then( m => m.PremiosPageModule)
+  },
   
 ];
 

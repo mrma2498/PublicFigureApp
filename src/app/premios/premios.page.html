@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button color="light"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Prémios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-list>
+<ion-item  *ngFor="let p of premios | keyvalue: originalOrder">
+  <ion-thumbnail slot="start">
+    <img src="{{p.value.imageUrl}}">
+  </ion-thumbnail>
+  <ion-label>
+    <h2>{{p.value.nome}}</h2>
+    <p>{{p.value.tipo}} - {{p.value.ano}} </p>
+    <p>{{p.value.filme}}</p>
+  </ion-label>
+</ion-item>
+</ion-list>
+
+  
+
+</ion-content>

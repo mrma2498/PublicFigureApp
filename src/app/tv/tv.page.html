@@ -1,17 +1,17 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-menu-button color="primary"></ion-menu-button>
+      <ion-menu-button color="light"></ion-menu-button>
     </ion-buttons>
     <ion-title>Televisão</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="light-blue">
 
   <!--Cards que listam todos os créditos de telivisão onde o actor já participou, obtendo essa informação a partir de uma API externa.--->
   <div class="tv">
-    <ion-card *ngFor="let credit of aparencias | keyvalue" >
+    <ion-card *ngFor="let credit of aparencias | keyvalue">
       <ion-card-header>
         <ion-row justify-content-between>
           <ion-col col-auto>
