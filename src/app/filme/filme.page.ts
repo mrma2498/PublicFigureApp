@@ -60,7 +60,9 @@ export class FilmePage implements OnInit {
 }
 
 
-
+/**Obtem URL para o site de streaming do filme, através de uma chamada POST onde se insere o ID da IMDB, e dirige o utilizador para
+ * a página de streaming do filme
+ */
 sendToStreaming(id: string) {
 
 
@@ -77,7 +79,7 @@ sendToStreaming(id: string) {
       window.open(url,'_system');
      }, error => {
       console.log(error);
-      //Mostrar erro "Indisponível"
+      
     });
 
 

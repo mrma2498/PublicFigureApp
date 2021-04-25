@@ -5,11 +5,13 @@
     </ion-buttons>
     <ion-title>Prémios</ion-title>
   </ion-toolbar>
+  
 </ion-header>
 
 <ion-content>
 
-<ion-list>
+<!--Lista os prémios pela ordem original que se encontra no ficheiro JSON através do componente ion-item-->
+<ion-list id="lista">
 <ion-item  *ngFor="let p of premios | keyvalue: originalOrder">
   <ion-thumbnail slot="start">
     <img src="{{p.value.imageUrl}}">
@@ -25,3 +27,4 @@
   
 
 </ion-content>
+
